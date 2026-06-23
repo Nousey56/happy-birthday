@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="hero">
+    <p class="small">A Little Birthday Gift</p>
+    <h1>Happy Birthday, My Love ❤️</h1>
+
+    <p class="message">
+      Today is all about you, your smile, your heart,
+      and how much happiness you bring into my life.
+    </p>
+
+    <button onclick="startStory()">Begin Our Story →</button>
+
+    <audio id="birthdaySong" src="birthday-song.mp3"></audio>
+  </section>
+
+  <section id="story" class="hidden">
+    <h2>To The Girl Who Makes Life Beautiful</h2>
+
+    <p>
+      I wanted to create something special for your birthday.
+      Something you could come back to and remember how much
+      you mean to me.
+    </p>
+
+    <div class="cards">
+      <div class="card photo1" onclick="openGallery('smileGallery')">
+        <span>Your Smile ❤️</span>
+        <p>May God keep your joy bright and your smile full this year.</p>
+      </div>
+
+      <div class="card photo2" onclick="openGallery('heartGallery')">
+        <span>Your Heart ❤️</span>
+        <p>May God protect your heart and fill it with peace, love, and happiness.</p>
+      </div>
+
+      <div class="card photo3" onclick="openGallery('loveGallery')">
+        <span>Your Love ❤️</span>
+        <p>May this new year bring you blessings, favor, success, and endless love.</p>
+      </div>
+    </div>
+
+    <div id="smileGallery" class="gallery hidden">
+      <h2>Your Smile ❤️</h2>
+      <img src="smile1.jpg">
+      <img src="smile2.jpg">
+      <img src="smile3.jpg">
+      <img src="smile4.jpg">
+    </div>
+
+    <div id="heartGallery" class="gallery hidden">
+      <h2>Your Heart ❤️</h2>
+      <img src="heart1.jpg">
+      <img src="heart2.jpg">
+      <img src="heart3.jpg">
+      <img src="heart4.jpg">
+    </div>
+
+    <div id="loveGallery" class="gallery hidden">
+      <h2>Your Love ❤️</h2>
+      <img src="love1.jpg">
+      <img src="love2.jpg">
+      <img src="love3.jpg">
+      <img src="love4.jpg">
+    </div>
+
+    <button onclick="showLetter()">Open Your Letter 💌</button>
+  </section>
+
+  <section id="letter" class="letter hidden">
+    <video autoplay muted loop playsinline class="letter-video">
+      <source src="letter-video.mp4" type="video/mp4">
+    </video>
+
+    <div class="letter-overlay"></div>
+
+    <div class="letter-content">
+      <h2>My Letter To You ❤️</h2>
+
+      <p>
+        Happy Birthday, my love ❤️
+        <br><br>
+
+        Today, I celebrate you.
+        <br><br>
+
+        Anjolaoluwa. Faith. Opeyemi. Oluwadarasimi. Jomiloju.
+        Oluwadumininu. Anuoluwapojojo.
+        <br><br>
+
+        Every one of your names tells a story of God's goodness,
+        favor, mercy, and love. Every day I get to see those blessings
+        reflected in the beautiful person you are.
+        <br><br>
+
+        To me, you are also Jemima, Precious, Apeke, Pelumi, and Ashabi.
+        The girl whose smile brightens my days, whose heart inspires me,
+        whose kindness comforts me, and whose presence makes life more beautiful.
+        <br><br>
+
+        I pray that this new year of your life is filled with God's favor,
+        divine protection, wisdom, joy, success, and peace.
+        <br><br>
+
+        May every dream in your heart find fulfillment.
+        May every prayer you've whispered in faith receive an answer.
+        May doors open for you where others see walls.
+        May God continue to guide your steps and surround you with love.
+        <br><br>
+
+        Thank you for being you. Thank you for your patience, your support,
+        your laughter, your prayers, and the countless ways you make my life better.
+        <br><br>
+
+        Every picture, every prayer, every line, every memory, and every part
+        of this website was made with love.
+        <br><br>
+
+        Happy Birthday, Anjolaoluwa Faith Opeyemi Oluwadarasimi Jomiloju
+        Oluwadumininu Anuoluwapojojo.
+        <br><br>
+
+        Happy Birthday, my Precious Jemima, my Apeke, my Pelumi, my Ashabi.
+        <br><br>
+
+        I love you today. I will love you tomorrow. And I will love you through
+        every chapter that is still waiting to be written.
+        <br><br>
+
+        ❤️ Forever Yours ❤️
+      </p>
+
+      <div class="signature">
+        - TEE ❤️
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
